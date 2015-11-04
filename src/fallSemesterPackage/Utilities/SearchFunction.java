@@ -98,11 +98,11 @@ public class SearchFunction {
 			wordInput = reader.nextLine().trim();
 			
 			if (wordInput.length() == 0){
-				System.out.println("That is an invalid entr)y.");
+				System.out.println("That is an invalid entry.");
 			}
 		}
 		
-		System.out.println("Please wait. Your request is being processed... ");
+		System.out.println("Please wait. Your request is being processed:.. ");
 		Find(wordInput, fileInput);
 		System.out.println("Done. \nThe file containing the search results is stored at: \n" + fileInput);		
 		
